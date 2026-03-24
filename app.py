@@ -20,10 +20,10 @@ html, body, [data-testid="stAppViewContainer"], [data-testid="stApp"] {
     font-family: 'Outfit', sans-serif !important;
 }
 
-#MainMenu, footer, header { visibility: hidden !important; }
+#MainMenu, footer { visibility: hidden !important; }
 [data-testid="stDecoration"] { display: none !important; }
 .stDeployButton { display: none !important; }
-[data-testid="collapsedControl"] { display: none !important; }
+header { background-color: transparent !important; }
 
 [data-testid="stSidebar"] {
     background: #0c0e18 !important;
